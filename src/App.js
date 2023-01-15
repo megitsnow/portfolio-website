@@ -4,6 +4,7 @@ import AppNavBar from './NavBar.js';
 import AboutSection from './About.js'
 import WelcomeSection from './Welcome.js'
 import PersonalPortfolio from "./PersonalPortfolio.js"
+import ContactSection from "./Contact.js"
 import './Style.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <WelcomeSection/>
             <AboutSection/>
             <PersonalPortfolio/>
+            <ContactSection/>
       </body>
     </div>
   );

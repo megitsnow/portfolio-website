@@ -2,10 +2,51 @@
     --bs-body-font-family: 'Josefin Sans', sans-serif !important;
 }
 
+body {
+    margin: 0px !important;
+}
+
 h1 {
     font-family: 'Dancing Script', cursive !important;
+    color: #c3897d;
 }
 
 .NavBarBrand {
     font-family: 'Dancing Script', cursive !important;
+    --bs-navbar-brand-font-size: 2rem;
+    color: #c3897d !important;
+    margin-left: 0;
+    padding: 0;
 }
+
+.NavBarLink {
+    /* padding: 35px 30px 30px 30px; */
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    justify-content: flex-start !important;
+}
+
+@media (max-width: 815px) {
+    .welcome-section {
+        flex-wrap: wrap;
+    }
+}
+
+.contactLinks {
+    color: #b5b3b3;
+    margin-right: 10px;
+}
+
+.personalPortfolioProjects {
+    border: 2px solid #ffd4d5;
+}
+
+
+
