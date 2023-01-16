@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0px !important;
+    margin: 2px !important;
 }
 
 h1 {
@@ -45,7 +45,7 @@ h1 {
 }
 
 .personalPortfolioProjects {
-    border: 2px solid #ffd4d5;
+    background-color: rgb(255,212,213, 0.3);
 }
 
 

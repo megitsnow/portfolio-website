@@ -5,6 +5,7 @@ import AboutSection from './About.js'
 import WelcomeSection from './Welcome.js'
 import PersonalPortfolio from "./PersonalPortfolio.js"
 import ContactSection from "./Contact.js"
+import Email from "./Email.js"
 import './Style.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <WelcomeSection/>
             <AboutSection/>
             <PersonalPortfolio/>
+            <Email/>
             <ContactSection/>
       </body>
     </div>
