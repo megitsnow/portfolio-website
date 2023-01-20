@@ -16,7 +16,7 @@ function Email() {
       }
 
     return (
-        <section id="contact">
+        <section id="contact" className = "bt-5">
             <h1 className = "text-center display-1">Send Me A Message!</h1>
                 <div className = "d-flex flex-column align-items-center">
                 <form ref = {form} onSubmit = {sendEmail}>
@@ -29,14 +29,14 @@ function Email() {
                         name = "user_email" required/>
                     </div>
                     <div>
-                        <input type = "text" className = "mb-2 w-75"
+                        <input type = "text" className = "mb-2 w-100"
                         placeholder = "Subject"
                         name = "subject" required/>
                     </div>
                     <div>
                         <textarea
-                        name = "message" className = "me-2 mb-2"
-                        cols = "42" rows = "10" required/>
+                        name = "message" className = "me-2 w-100"
+                        rows = "7" required/>
                     </div>
                     <div>
                         <button type ="submit" className = "btn btn-outline-secondary">Send Message</button>
