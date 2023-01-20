@@ -16,7 +16,7 @@ function AboutSection() {
                   At Lyra I was focused on recruiting strategies and operations for our therapist onboardings 
                   and trainings. To  automate processes, I taught myself to use Google scripts and realized that 
                   I love to code. Always up for a challenge, I decided that I wanted to pivot into software engineering, and enrolled in Hackbright. 
-                  I have throughly enjoyed having a mentor through Hackbright and hope to mentor a budding engineer at some point in my engineering career! In my freetime, I love to explore new places with my husband and dog, Arwen.</p>
+                  I have thoroughly enjoyed having a mentor through Hackbright and hope to mentor a budding engineer at some point in my engineering career! In my freetime, I love to explore new places with my husband and dog.</p>
                 </div></div>
                 <div class="col-md-6 mb-0"><img src = {AboutMe} className="h-100 w-100"/></div>
         </div>
