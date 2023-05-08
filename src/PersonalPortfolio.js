@@ -13,7 +13,7 @@ function PersonalPortfolio() {
                 <div className = "col-md-6 d-flex justify-content-center align-items-center">
                     <div className = "text-center">
                         <img src = {PORTFOLIO} alt = "image of Megan with a laptop and her dog, Arwen." className="h-100 w-100"/>
-                        <p className = "mt-1 mb-1">Languages: JavaScript (JSX, JSON, NODE), HTML, CSS, ReactJS, Python</p>
+                        <p className = "mt-1 mb-1">Languages: JavaScript (JSX, JSON, NODE), HTML, CSS, ReactJS, Python, SQL</p>
                         <p className = "mt-1 mb-1">Frameworks & Libraries: Flask, Bootstrap, Jinja, jQuery, SQLAlchemy</p>
                         <p className = "mt-1 mb-1">Database & Industry Tools: PostgreSQL, Git, GitHub, Command Line</p>
                     </div>
