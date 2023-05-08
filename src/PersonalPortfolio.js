@@ -12,7 +12,7 @@ function PersonalPortfolio() {
             <div class = "row">
                 <div className = "col-md-6 d-flex justify-content-center align-items-center">
                     <div className = "text-center">
-                        <img src = {PORTFOLIO} className="h-100 w-100"/>
+                        <img src = {PORTFOLIO} alt = "image of Megan with a laptop and her dog, Arwen." className="h-100 w-100"/>
                         <p className = "mt-1 mb-1">Languages: JavaScript (JSX, JSON, NODE), HTML, CSS, ReactJS, Python</p>
                         <p className = "mt-1 mb-1">Frameworks & Libraries: Flask, Bootstrap, Jinja, jQuery, SQLAlchemy</p>
                         <p className = "mt-1 mb-1">Database & Industry Tools: PostgreSQL, Git, GitHub, Command Line</p>
@@ -45,7 +45,7 @@ function PersonalPortfolio() {
             <div class = "row">
                 <div className = "col-md-6 d-flex align-items-center justify-content-center flex-column">
                     <h1 className = "text-center">More to Come!</h1>
-                    <img src= {ADA} alt="Racing Clipart Formula 1" className="h-45 w-75 mb-2"/>
+                    <img src= {ADA} alt="Clip art of Ada Lovelace" className="h-45 w-75 mb-2"/>
                     <p className = "mt-0 mb-0">Please continue to check back for more projects as I continue to build my portfolio and refine my coding skills! In the meantime, feel free to read about my inspiration, <a class = "link-secondary" target = "_blank" href = "https://en.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a></p>
 
                 </div>
